@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Palco
-
+from .models import Dia
 
 def index_view(request):
     return render(request, 'festival/index.html')
