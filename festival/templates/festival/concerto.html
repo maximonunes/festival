@@ -2,12 +2,14 @@
 
 {% block content %}
     
-    <article class="card">
-        <h2>{{ concerto.banda.nome }}</h2>
+    <article class="card" style="padding: 20px;">
+        <h2 style="margin-top: 0;">{{ concerto.banda.nome }}</h2>
         <p><strong>Dia:</strong> {{ concerto.dia }}</p>
         <p><strong>Palco:</strong> {{ concerto.palco }}</p>
     </article>
 
+    <div style="text-align: center; margin-top: 40px;">
+        <p style="color: #aaa;">Feel the sound. Live the night.</p>
+    </div>
     
 {% endblock %}
-    
